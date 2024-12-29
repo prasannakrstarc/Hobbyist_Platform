@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="/static/css/styles.css">
+<section class="hero">
+    <div class="container">
+        <h2>Discover Your Passion with Hobbyist</h2>
+        <p>Welcome to Hobbyist, the platform that helps you find and connect with hobby enthusiasts worldwide.</p>
+        <button onclick="window.location.href='/register'">Register</button>
+        <button onclick="window.location.href='/login'">Join</button>
+    </div>
+</section>
+<section class="features">
+    <div class="container">
+        <h3>Connecting Like-Minded Individuals Through Hobbies</h3>
+        <div class="feature-grid">
+            <div class="feature-item">Engage in meaningful discussions</div>
+            <div class="feature-item">Learn new skills</div>
+            <div class="feature-item">Connect globally</div>
+        </div>
+    </div>
+</section>
+{% endblock %}
